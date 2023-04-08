@@ -1,6 +1,6 @@
-# [SCAN QR](https://x-asena-qr.herokuapp.com)
+# [SCAN QR](https://hyno-api.vercel.app/)
 
-# [DEPLOY](https://heroku.com/deploy?template=https://github.com/HyNO/X-Asena) 
+# [DEPLOY](https://heroku.com/deploy?template=https://github.com/angela-ser/hyno-md3) 
 
 ---
 ## Deploy on any shell including termux
