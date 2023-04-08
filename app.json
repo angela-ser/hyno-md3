@@ -1,6 +1,6 @@
 {
   "name": "hyno",
-  "description": "X-asena Multi Device whatsappbot",
+  "description": "HyNO Multi Device whatsappbot",
   "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/angela-ser/hyno-md3",
@@ -17,7 +17,7 @@
       "required": false
     },
     "RMBG_KEY": {
-      "description": "Remove bg api key ",
+      "description": "Remove bg api key",
       "required": false
     },
     "SESSION_ID": {
@@ -30,14 +30,13 @@
       "value": ","
     },
     "LOGS": {
-      "description": "need to show message logs ?",
+      "description": "need to show message logs?",
       "required": false
     },
     "PACKNAME": {
       "description": "Sticker Packname",
       "required": false
     },
-
     "GOODBYE_MSG": {
       "description": "goodbye Message",
       "required": false
@@ -47,7 +46,7 @@
       "required": false
     },
     "SUDO": {
-      "description": "sudo numbers with country code seperate with , for multiple numbers",
+      "description": "sudo numbers with country code separate with , for multiple numbers",
       "required": false
     },
     "HEROKU_APP_NAME": {
