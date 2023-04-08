@@ -57,11 +57,5 @@
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "required": true
     },
-      "addons": [{
-													"plan": "heroku-postgresql"
-													}],
-													"buildpacks": [{
-														"url": "heroku-community/apt"
-														}]
-														}
+   }
   }
