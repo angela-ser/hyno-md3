@@ -1,5 +1,5 @@
 {
-  "name": "hyno-bot-mq",
+  "name": "hyno-md",
   "version": "2.1.0",
   "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./bot.js",
