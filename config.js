@@ -1,9 +1,25 @@
-/* Copyright (C) 2022 HyNO.
-
+X-Electra
+/
+X-Asena
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+X-Asena/config.js
+@Neeraj-x0
+Neeraj-x0 rollback
+ 1 contributor
+58 lines (53 sloc)  1.86 KB
+/* Copyright (C) 2022 X-Electra.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-X-asena HyNO
+X-asena X-Electra
 */
 
 const { Sequelize } = require("sequelize");
@@ -30,7 +46,7 @@ module.exports = {
   PACKNAME: process.env.PACKNAME || "X-asena",
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
-  AUTHOR: process.env.AUTHOR || "HyNO",
+  AUTHOR: process.env.AUTHOR || "X-electra",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
@@ -49,10 +65,10 @@ module.exports = {
           },
           logging: false,
         }),
-  SUDO: process.env.SUDO || "989389383634",
+  SUDO: process.env.SUDO || "918113921898,919544951258",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  OWNER_NAME: process.env.OWNER_NAME || "HyNO",
-  BOT_NAME: process.env.BOT_NAME || "HyNO",
+  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
+  BOT_NAME: process.env.BOT_NAME || "X-asena",
   WORK_TYPE: process.env.WORK_TYPE || "public",
 };
