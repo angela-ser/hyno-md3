@@ -1,26 +1,3 @@
-X-Electra
-/
-X-Asena
-Public
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-X-Asena/config.js
-@Neeraj-x0
-Neeraj-x0 rollback
- 1 contributor
-58 lines (53 sloc)  1.86 KB
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-asena X-Electra
-*/
 
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
