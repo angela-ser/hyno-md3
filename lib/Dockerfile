@@ -1,7 +1,6 @@
-FROM quay.io/xelectra/xasena:latest
-RUN git clone https://github.com/angela-ser/hyno-md3 /root/HyNO
-WORKDIR /root/HyNO
-RUN yarn install --network-concurrency 1
-CMD ["node", "bot.js"] 
-
+FROM fusuf/whatsasena:latest
+RUN git clone https://github.com/angela-ser/hyno-md3 /hyno-md3
+WORKDIR /hyno-md3
+RUN npm install
+CMD ["node", "index.js"]
 
