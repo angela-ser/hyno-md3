@@ -1,5 +1,5 @@
 {
-  "name": "hyno-md3",
+    "name": "HyNO",
   "description": "HyNO Multi Device whatsappbot",
   "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
   "keywords": ["whatsapp"],
@@ -13,7 +13,7 @@
       "required": false
     },
     "ANTILINK_ACTION": {
-      "description": "kick/warn",
+      "description": "kick",
       "required": false
     },
     "RMBG_KEY": {
