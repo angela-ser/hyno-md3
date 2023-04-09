@@ -57,9 +57,10 @@ async function HyNO() {
       },
   });
   store.bind(conn.ev);
-  setInterval(() => {
+   setInterval(() => {
     store.writeToFile("./database/store.json");
-  }, 30 * 1000);
+    console.log("saved store");
+  }, 30 * 60 * 1000);
 
   conn.ev.on("creds.update", saveCreds);
   conn.ev.on("contacts.update", (update) => {
